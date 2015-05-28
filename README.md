@@ -1,10 +1,7 @@
-# spark
 # Installation
 kb scp Spark 1 spark-1.3.1-bin-hadoop2.6.tgz /home/jsabin
 sudo tar -C /opt/proofpoint/ -xzf spark-1.3.1-bin-hadoop2.6.tgz
 sudo ln -s /opt/proofpoint/spark-1.3.1-bin-hadoop2.6/ /opt/proofpoint/spark
-#kb scp Spark 1 /home/jsabin/temp/spark/log4j.properties /home/jsabin
-#kb ssh Spark 1 sudo mv log4j.properties /opt/proofpoint/spark/conf
 kb scp Spark 1 /home/jsabin/temp/spark/spark-env.sh /home/jsabin
 sudo mv spark-env.sh /opt/proofpoint/spark/conf
 
